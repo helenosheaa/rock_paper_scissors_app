@@ -13,12 +13,14 @@ attr_reader(:hand1, :hand2)
       "paper" => "rock",
       "scissors" => "paper"
     }
-    if
-       @hand1 == @hand2; return "it's a draw"
-    elsif
-       win[@hand1] == @hand2; return "#{@hand1} wins"
-    else
+    if @hand1 == @hand2
+      return "it's a draw"
+    elsif win[@hand1] == @hand2
+      return "#{@hand1} wins"
+    elsif win[@hand2] == @hand1
       return "#{@hand2} wins"
+    else
+      return "Invalid choice"
     end
   end
 

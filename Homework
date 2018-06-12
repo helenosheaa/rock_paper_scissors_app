@@ -12,7 +12,7 @@ Create a simple sinatra app to allow the user to play rock, paper, scissors in t
 
 - Add an ERB view file for returning the result of the game, rather than just sending a string. DONE
 
-- Add a welcome page (and a route to get it) to explain the rules before the user picks their move. Add a link to this on the result view.
+- Add a welcome page (and a route to get it) to explain the rules before the user picks their move. Add a link to this on the result view. DONE
 
 - Add some CSS to either/both of your pages.
 
